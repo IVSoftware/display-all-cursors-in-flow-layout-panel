@@ -1,4 +1,4 @@
-Reading your code carefully, if I'm following correctly your objectives are:
+After carefully reading your code, if I'm following correctly your objectives are:
 - Display all the available cursors in a `FlowLayoutPanel`.
 - Click on an image to change the current cursor.
 
