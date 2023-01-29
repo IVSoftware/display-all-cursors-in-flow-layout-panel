@@ -1,4 +1,8 @@
-Reading your code carefully, if I'm following correctly your objective is to have a `FlowLayoutPanel` that displays all the available cursors. What we end up with here could be considered an [X-Y Problem](https://meta.stackexchange.com/a/66378) because doing that is straightforward, but the manner in which you're trying to solve your problem is not. 
+Reading your code carefully, if I'm following correctly your objectives are:
+- Display all the available cursors in a `FlowLayoutPanel`.
+- Click on an image to change the current cursor.
+
+What we end up with here could be considered an [X-Y Problem](https://meta.stackexchange.com/a/66378) because doing that is straightforward, but the manner in which you're trying to solve your problem is not. 
 
 Please allow me to steer the conversation back to what you were trying to do to begin with:
 
