@@ -19,7 +19,7 @@ To achieve this objective, use reflection to obtain the cursors from the `Cursor
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            foreach (var pi in typeof(Cursors).GetProperties(BindingFlags.Static | BindingFlags.Public))
+            foreach (PropertyInfo pi in typeof(Cursors).GetProperties(BindingFlags.Static | BindingFlags.Public))
             {
                 if(pi.GetValue(null) is Cursor cursor)
                 {

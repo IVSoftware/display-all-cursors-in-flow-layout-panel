@@ -8,7 +8,7 @@ namespace draw_cursors_00
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            foreach (var pi in typeof(Cursors).GetProperties(BindingFlags.Static | BindingFlags.Public))
+            foreach (PropertyInfo pi in typeof(Cursors).GetProperties(BindingFlags.Static | BindingFlags.Public))
             {
                 if(pi.GetValue(null) is Cursor cursor)
                 {
