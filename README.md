@@ -42,7 +42,7 @@ To achieve this objective, use reflection to obtain the cursors from the `Cursor
             }
         }
 
-By attaching a `Click` event to each button, we can change the current `Cursor` to the one clicked. To avoid visual confusion, if a different button is hovered over then return to the default cursor to more clearly indicate that the new style can now be clicked.
+By attaching a `Click` event to each button, the current `Cursor` can be changed to the one clicked. To avoid visual confusion, if a different button is hovered over then return to the default cursor to more clearly indicate that the new style can now be clicked.
 
         private void onAnyClickCursorButton(object? sender, EventArgs e)
         {
