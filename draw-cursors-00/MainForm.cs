@@ -17,7 +17,7 @@ namespace draw_cursors_00
                     {
                         cursor.DrawStretched(
                             graphics,
-                            new Rectangle(new Point(), new Size(100, 100)));
+                            new Rectangle(new Point(), new Size(image.Width, image.Height)));
                     }
                     var button = new Button
                     {
